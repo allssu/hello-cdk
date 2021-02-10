@@ -1,15 +1,7 @@
-# Welcome to your CDK TypeScript project!
-
-You should explore the contents of this project. It demonstrates a CDK app with an instance of a stack (`HelloCdkStack`)
-which contains an Amazon SQS queue that is subscribed to an Amazon SNS topic.
-
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
-
+# [AWS CDK #2 - 세팅 및 프로젝트 배포][https://youtu.be/F4lBrkLxYPc]
 ## Useful commands
-
- * `npm run build`   compile typescript to js
- * `npm run watch`   watch for changes and compile
- * `npm run test`    perform the jest unit tests
- * `cdk deploy`      deploy this stack to your default AWS account/region
- * `cdk diff`        compare deployed stack with current state
- * `cdk synth`       emits the synthesized CloudFormation template
+ * `npm run watch`   타입스크립트 파일을 자동 감시해서 자바스크립트로 변환
+ * `cdk bootstrap`   초기 실행시 AWS에 CDK 환경을 잡아주는 역할!
+ * `cdk deploy`      여러분의 AWS 계정에 해당 CDK 스택을 배포
+ * `cdk diff`        여러분의 AWS 계정에 있는 서비스와 CDK 스택을 비교
+ * `cdk synth`       작성한 CDK 코드를 CloudFormation 템플릿으로 변환
