@@ -1,4 +1,5 @@
-# [AWS CDK #2 - 세팅 및 프로젝트 배포][https://youtu.be/F4lBrkLxYPc]
+# AWS CDK #2 - 세팅 및 프로젝트 배포
+[유튜브 링크][https://youtu.be/F4lBrkLxYPc]
 ## Useful commands
  * `npm run watch`   타입스크립트 파일을 자동 감시해서 자바스크립트로 변환
  * `cdk bootstrap`   초기 실행시 AWS에 CDK 환경을 잡아주는 역할!
